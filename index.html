@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Logo.png" alt="Logo de Alura">
+    </header>
+    
+    <main>
+        <section class="text-section">
+            <textarea class="text-area" id="inputTexto" placeholder="Por favor, ingresa el texto aquí."></textarea>
+            <p class="informacion">Solo se aceptan letras minúsculas y sin acentos</p>
+            <div class="button-container">
+                <button class="boton-encrip" id="btnEncriptar">Encriptar</button>
+                <button class="boton-desencrip" id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="text-section2">
+            <img class="imgatito" src="Gatico.png" alt="">
+            <textarea class="mensaje" id="outputTexto" readonly placeholder="No se encontró ningun mensaje, ingrese el texto que desea encriptar o desencriptar."></textarea>
+            <div class="button-container">
+                <button class="copiar" id="btnCopiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Hecny Secue</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
